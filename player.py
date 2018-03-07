@@ -40,6 +40,9 @@ class Player:
             else: self._insdat(**kwargs)
         except NameError: self._insdat(**kwargs)
 
+    def __str__(self):
+        return str(self.username)
+
     def _insdat(self, **data):
         # self.__token__ = data.get('__token__','undefined')
         self.user_id = data.get('user_id',-1)

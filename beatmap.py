@@ -39,6 +39,9 @@ class Beatmap:
             else: self._insdat(**kwargs)
         except NameError: self._insdat(**kwargs)
 
+    def __str__(self):
+        return str(self.title)
+
     def _insdat(self, **data):
         # self.__token__ = data.get('__token__','undefined')
         self.approved = int(data.get('approved',-3))
