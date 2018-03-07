@@ -13,7 +13,7 @@ __title__ = 'osupy'
 __author__ = 'Preta'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2017-2018 CrowZ'
-__version__ = '0.1'
+__version__ = '0.11'
 
 from .beatmap import *
 from .player import *
