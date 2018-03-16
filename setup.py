@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='osupy',
-      version='0.11',
+      version='0.12',
       url='https://github.com/Preta-Crowz/osupy',
       license='MIT',
       author='Preta',
