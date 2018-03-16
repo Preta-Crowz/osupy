@@ -9,6 +9,6 @@ setup(name='osupy',
       author='Preta',
       author_email='preta@crowz.r-e.kr',
       description='osu! Python API',
-      packages=[''],
+      packages=[],
       setup_requires=['requests>=2.13.0']
      )
