@@ -10,5 +10,6 @@ setup(name='osupy',
       author_email='preta@crowz.r-e.kr',
       description='osu! Python API',
       packages=[],
-      setup_requires=['requests>=2.13.0']
+      setup_requires=['requests>=2.13.0'],
+      keywords=['osu','osupy']
      )
