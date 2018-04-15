@@ -37,7 +37,7 @@ class NoTokenError(Exception):
     def __str__(self):
         return self.msg
 
-class NoTokenError(Exception):
+class NoQueryError(Exception):
     def __init__(self):
         self.msg = 'No query entered.'
     def __str__(self):
